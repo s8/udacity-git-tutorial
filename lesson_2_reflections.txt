@@ -1,0 +1,12 @@
+Question:
+what happens when you initalize a repository? Why do you need to do it?
+
+Answer:
+git makes a .git folder in which it keeps track of changes to the version controlled files
+
+Question:
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+Answer:
+allows to organize changes made in the working directory into sizeable commits
