@@ -3,10 +3,48 @@ what happens when you initalize a repository? Why do you need to do it?
 
 Answer:
 git makes a .git folder in which it keeps track of changes to the version controlled files
-
+---------------------------------------------------------------
 Question:
 How is the staging area different from the working directory and the
 repository? What value do you think it offers?
 
 Answer:
 allows to organize changes made in the working directory into sizeable commits
+---------------------------------------------------------------
+Question:
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+Answer:
+Each time run git diff --staged before committing and double-check the changes
+---------------------------------------------------------------
+Question:
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Answer:
+Adding new experimental features, while keeping the stable version of the code
+untouched.
+---------------------------------------------------------------
+Question:
+How do the diagrams help you visualize the branch structure?
+
+Answer:
+Well, they just do visualize.
+---------------------------------------------------------------
+Question:
+- What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+Answer:
+- Collecting changes from both branches in a single commit. The graphic tree-like
+representation is there as mnemonic aid helping to make sense of the structure.
+---------------------------------------------------------------
+Question:
+- What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+Answer:
++ obviosly - time saving
++ less prone to introducing new errors
+- sometimes needs manual work
