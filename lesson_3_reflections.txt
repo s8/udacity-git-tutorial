@@ -14,3 +14,15 @@ automatically stay up-to-date with your remote repository?
 Answer:
 - To maintain better control of the repository contents;
 - For the work not to be overlapped between different contributors;
+
+Question:
+- Describe the difference between forks, clones, and branches. When would you use
+one instead of another?
+
+Answer:
+- Fork is used when it's not possible to contribute directly to the original
+project
+- Clone is used every time a project needs to be duplicated on a local repository.
+I guess GitHub's 'fork' functionality relies on 'clone' command itself.
+- Branches are useful when a new experimental feature needs to be added/tested
+without messing up the original functional project.
