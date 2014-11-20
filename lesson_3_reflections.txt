@@ -26,3 +26,10 @@ project
 I guess GitHub's 'fork' functionality relies on 'clone' command itself.
 - Branches are useful when a new experimental feature needs to be added/tested
 without messing up the original functional project.
+
+Question:
+- What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+Answer:
+- So that your work can be up-to-date with the work of your collaborators.
