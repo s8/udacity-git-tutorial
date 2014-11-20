@@ -1,3 +1,4 @@
+
 Question:
 - When would you want to use a remote repository rather than keeping all you work local?
 
@@ -5,3 +6,11 @@ Answer:
 - To make my files available to other contributors
 - To make my files available for myself from other machines
 - Have a back up version of my files
+
+Question:
+- Why might you want to always pull changes maually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+Answer:
+- To maintain better control of the repository contents;
+- For the work not to be overlapped between different contributors;
