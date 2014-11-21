@@ -33,3 +33,20 @@ stored locally?
 
 Answer:
 - So that your work can be up-to-date with the work of your collaborators.
+
+
+Question:
+- How would you collaborate without using Git or GitHub? What would be easier and
+what would be harder?
+
+Answer:
+- Email / DropBox / FTP. Tricky stuff and difficult to keep track of things.
+
+Question:
+- When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+Answer:
+- As usual - new, experimental features;
+- When collaborating with a number of different contributors, so as to keep changes
+discrete
